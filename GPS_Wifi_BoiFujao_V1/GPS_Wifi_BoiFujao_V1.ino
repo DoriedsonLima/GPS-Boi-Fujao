@@ -27,10 +27,10 @@ const char * senha = "SUA_SENHA_WIFI";    //senha da rede wifi
 
 //*************************** HELIX **********************************************
 //
-String helixAddress = "http://143.107.145.16:1026/v2/entities/";
+String helixAddress = "IP Helix Sandbox:porta/v2/entities/";
 
 //Entidade no Helix
-String IdDevice = "urn:ngsi-ld:Animal:0001";
+String IdDevice = "Id da entidade";
 
 //Endereco completo para a entidade no Helix
 String fullAddress = helixAddress + IdDevice + "/attrs?";
